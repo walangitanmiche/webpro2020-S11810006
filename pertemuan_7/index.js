@@ -66,7 +66,7 @@
 //     console.log(x);
 //   }
   
-//4.Whilr Loop
+//4.While Loop
 // let x = 1;
 
 // while (x <= 10) {
