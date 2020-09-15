@@ -2,9 +2,9 @@ const account ={
     nama: "Michelle",
     expenses: [],
 }
-const addExpenses = function (description, amount){
-    account.expenses.push({description:description,
-        amount:amount});
+const addExpenses = function (desc, amnt){
+    account.expenses.push({description:desc,
+        amount:amnt});
 }
 
 const getAccountSummary = function(){
