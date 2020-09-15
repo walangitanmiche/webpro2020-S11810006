@@ -2,15 +2,15 @@ const account ={
     nama: "Michelle",
     expenses: [],
 }
-const addExpenses = function (desc, amnt){
-    account.expenses.push({description:desc,
-        amount:amnt});
+const addExpenses = function (description, amount){
+    account.expenses.push({description:description,
+        amount:amount});
 }
 
 const getAccountSummary = function(){
     let totalExpenses = 0;
-    account.expenses.forEach(function (el){
-        totalExpenses = totalExpenses+el.amount
+    account.expenses.forEach(function (m){
+        totalExpenses = totalExpenses + m.amount
     });
     return "Total Pengeluaran " + account.nama + " adalah Rp." + totalExpenses
 }
