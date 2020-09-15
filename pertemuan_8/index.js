@@ -1,31 +1,23 @@
 const account ={
     nama: "Michelle",
-    expense: [],
-
-    getAccountSummary : function(description,amount){
-        let totalExpenses=0;
-        this.expenses.forEach(function(el){
-            totalExpenses=totalExpenses+el;
-        })
-    }
- 
+    expenses: [],
 }
-    
-const expense= [
-    description,
-    amount,
-    {
-        description: "Beli Makanan",
-        amount: "0",
-    },
-    {
-        description: "Ongkos",
-        amount: "0",
-    }
-]
-expense.forEach(function(description,amount){
-    console.log(description,amount);
-});
+const addExpenses = function (desc, amnt){
+    account.expenses.push({description:desc,
+        amount:amnt});
+}
 
-expense.amount.push(15000,30000)
+const getAccountSummary = function(){
+    let totalExpenses = 0;
+    account.expenses.forEach(function (el){
+        totalExpenses = totalExpenses+el.amount
+    });
+    return "Total Pengeluaran " + account.nama + " adalah Rp." + totalExpenses
+}
+
+addExpenses("Beli Makanan", 15000)
+addExpenses("Ongkos",30000)
+console.log(getAccountSummary());
+
+
 
