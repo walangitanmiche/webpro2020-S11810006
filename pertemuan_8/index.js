@@ -9,8 +9,8 @@ const addExpenses = function (description, amount){
 
 const getAccountSummary = function(){
     let totalExpenses = 0;
-    account.expenses.forEach(function (m){
-        totalExpenses = totalExpenses + m.amount
+    account.expenses.forEach(function (i){
+        totalExpenses = totalExpenses + i.amount
     });
     return "Total Pengeluaran " + account.nama + " adalah Rp." + totalExpenses
 }
