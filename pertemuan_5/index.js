@@ -34,19 +34,20 @@ console.log(arr2.length);
 // Menambah isi Array
 
 /*let mhs= [];
-mhs[0]="Gusti";
-mhs[1]="Bagus";
-mhs[2]="Reynaldo";
-mhs[3]="Francolla";
+mhs[0]="Michelle";
+mhs[1]="Rein";
+mhs[2]="Gusti";
+mhs[3]="Regina";
 console.log(mhs)
 // Mengubah Isi Array
-mhs[2]="Roberto";
+mhs[2]="Acxel
+";
 console.log(mhs)
 //Menghapus
 mhs[2]=undefined;
 console.log(mhs)
 // Menampilkan isi Array
-let mhs1= ["Gusti","Bagus","Reynaldo","Francolla"];
+let mhs1= ["Michelle","Rein","Gusti","Regina"];
 for (let i=0 ; i < 4 ; i++){
  console.log("Mahasiswa ke-" + (i + 1) + "Adalah" + mhs1[i])
 }*/
@@ -54,20 +55,20 @@ for (let i=0 ; i < 4 ; i++){
 
 // Method dalam Array 
     //tostring
-let mhs1= ["Gusti","Bagus","Reynaldo","Francolla"];
+let mhs1= ["Michelle","Rein","Gusti","Regina"];
 //console.log(mhs1.toString())
 
     //join
 //console.log(mhs1.join("-"))
 
     //push,pop,unsgift,shift
-/*mhs1.push("Wondal");
+/*mhs1.push("BOOM");
 console.log(mhs1.join("-"))
 mhs1.pop("");
 console.log(mhs1.join("-"))
 */
 /*
-mhs1.unshift("Wondal")
+mhs1.unshift("BOOM")
 console.log(mhs1.join("-"))
 mhs1.shift()
 console.log(mhs1.join("-"))
