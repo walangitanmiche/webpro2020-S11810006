@@ -40,8 +40,7 @@ mhs[2]="Gusti";
 mhs[3]="Regina";
 console.log(mhs)
 // Mengubah Isi Array
-mhs[2]="Acxel
-";
+mhs[2]="Acxel";
 console.log(mhs)
 //Menghapus
 mhs[2]=undefined;
