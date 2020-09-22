@@ -2,12 +2,12 @@ const account ={
     nama: "Michelle",
     expenses: [],
 }
-const addExpenses = function (desc, amnt){
+addExpenses = function (desc, amnt){
     account.expenses.push({description:desc,
         amount:amnt});
 }
 
-const getAccountSummary = function(){
+getAccountSummary = function(){
     let totalExpenses = 0;
     account.expenses.forEach(function (i){
         totalExpenses = totalExpenses + i.amount
@@ -18,6 +18,3 @@ const getAccountSummary = function(){
 addExpenses("Beli Makanan", 15000)
 addExpenses("Ongkos",30000)
 console.log(getAccountSummary());
-
-
-

@@ -10,8 +10,8 @@ function penjumlahanDuaBujurSangkar(a,b)
     let total= luasA + luasB;
    // console.log(total)
 
-    return total; 
- 
+    return total;
+
 }
 console.log(penjumlahanDuaBujurSangkar(8,3));
 const hasil = penjumlahanDuaBujurSangkar(8,3);
