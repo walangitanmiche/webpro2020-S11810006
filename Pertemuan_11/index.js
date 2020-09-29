@@ -26,9 +26,8 @@
 
 // console.log(greeting('Michelle'));
 
+
 // EXERCISE
-
-
 //Convert to ES6 Syntax
 
 const yearUntilRetirement = (year, firstName) => {
