@@ -24,4 +24,4 @@ console.log(Mhs());
 
 const greeting = (nama) => `Hi ${nama}`;
 
-console.log(greeting('Einstein'));
+console.log(greeting('Michelle'));
