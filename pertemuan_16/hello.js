@@ -3,8 +3,11 @@
 // export const world = () => {
 //    console.log('Hello World');
 // }
+
+import {world} from './components/world.js'
  
 export const hello = (user) => {
+    world();
     console.log(`Hello, ${user}`);
 }
 
