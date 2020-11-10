@@ -1,29 +1,24 @@
 
 import './App.css';
-import Header from './components/Header';
-import Hello from './components/Hello';
+import Card from './components/Card';
+import {person} from "./utils/person";
 
 
 
-
-const Content = () => {
-  return (
-    <p>
-      web programming parallel A, hari selasa jam 13.00 WITA.
-      web programming parallel A, hari selasa jam 13.00 WITA.
-      web programming parallel A, hari selasa jam 13.00 WITA.
-      web programming parallel A, hari selasa jam 13.00 WITA.
-      web programming parallel A, hari selasa jam 13.00 WITA.
-    </p>
-  )
-}
 function App() {
   return (
-    <>
-     <Header/>
-      <Hello/>
-      <Content/>
-    </>
+      <>
+      {person.map((item) => {
+          return (
+              <Card 
+              name={item.name}
+              institution={item.institution}
+              address={item.address}
+              phoneNumber={item.phoneNumber}
+              />
+          );
+      })}
+      </>
   );
 }
 
