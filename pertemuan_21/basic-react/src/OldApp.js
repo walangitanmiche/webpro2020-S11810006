@@ -1,13 +1,17 @@
 
 import './App.css';
-import Card from "./components/Card";
+import Header from './components/Header';
+import Hello from './components/Hello';
+import Contents from './components/Contents';
 
 
 
 function App() {
   return (
     <>
-     <Card/>
+     <Header/>
+      <Hello/>
+      <Contents/>
     </>
   );
 }
